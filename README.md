@@ -1,8 +1,8 @@
 # Ex.06 Book Front Cover Page Design
-## Date: 29-04-2024
-## Name: Blessing jeffrey Y.L
-## Reg.no: 212223220014
-## Department: IT
+## Date: 10.5.2024
+## Name: rithik v
+## Reg.no: 212223230171
+## Department: AI&DS
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -142,3 +142,9 @@ text-align: center;
 <div class="book-author">Jon Duckett</div>
 </div>
 ```
+## OUTPUT:
+
+![Screenshot 2024-05-10 003139](https://github.com/23014287rithik/cover/assets/150985832/6a58fff6-ca0c-4b94-9ff9-c13a59d5e8f7)
+
+## RESULT:
+The program for designing book front cover page using HTML and CSS is completed successfully.
