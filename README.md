@@ -35,116 +35,79 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ```
+book.html
 
 <!DOCTYPE html>
-<html>
- <head>
- <title></title>
- <link href="{% static 'css/bookfrontcover.css' %}" rel="stylesheet">
- </head>
- <body>
- <div id="content">
+<html lang="en">
 
- </div>
- </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book-front-cover</title>
+    <style>
+        body{
+            top:0;
+        }
+        .pic {
+            /* background-image: url("images/coffee-cover.jpg");
+            background-repeat: no-repeat;
+            background-size: cover; */
+            background-color: rgb(79, 42, 165);
+            color: white;
+            height: 100vh;
+        }
+
+        .layout {
+            margin: 0% 25% 0% 25%;
+        }
+
+        p {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        h4,
+        h3 {
+
+            margin: 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="pic">
+            <div style="margin:2%;">
+                <p style="margin-top: 5%;padding:2% 0% 0% 0%;color:wheat;font-size: 25px;"><i>READER INSIGHT</i></p>
+                <div style="width:25%;">
+                    <hr style="padding:0% 2% 0% 0%">
+                </div>
+                <h1 style="text-align: center;margin-top:5%;font-size:45px;color:gold"><i>Brewed Culture: A Sip Through
+                        History<i></h1>
+                <p style="text-align: center">Step into the rich tapestry of coffee's journey through time and culture
+                    in "Brewed Culture."</p>
+                    <img style="align-items: center;margin-left:28%;margin-top:5%;border-radius: 10px;" src="c:\Users\rithi\OneDrive\Pictures\Screenshots\Screenshot 2024-05-14 111314.png">
+                <div style="display: flex;justify-content: space-between;font-size:25px;color:wheat;">
+                    <h3 style="margin-top:15%;">Second Edition</h3>
+                    <img src="c:\Users\rithi\OneDrive\Pictures\my pht.png" width="100px" height="100px" style="margin-top:7%;">
+                </div>
+                <hr>
+                <div style="display: flex;justify-content: space-between;font-size:25px;color:rgb(245, 179, 209)">
+                    <h4>rithik v</h4>
+                    <h4>SAVEETHA CLG</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
-<style>
-body {background: #888; height: 100%;}
-span {color: #F57D11;}
-.book {
-display: block;
-position: absolute;
-height: 850px;
-width: 700px;
-overflow: hidden;
-top: 50%;
-left: 50%;
--webkit-transform: translate(-50%,-50%);
--ms-transform: translate(-50%,-50%);
-transform: translate(-50%,-50%);
-background: #393939;
-}
-.cover-design {
-display: block;
-position: absolute;
-height: 600px;
-width: 600px;
-top: 45%;
-left: 50%;
--webkit-transform: translate(-50%,-50%);
--ms-transform: translate(-50%,-50%);
-transform: translate(-50%,-50%);
-font-family: sans-serif;
-color: #EEE;
-}
-.diamond-frame {
-position: absolute;
-height: 325px;
-width: 325px;
-top: 64.8%;
-left: 14.5%;
--webkit-transform: rotate(45deg) translate(-50%,-50%);
--ms-transform: rotate(45deg) translate(-50%,-50%);
-transform: rotate(45deg) translate(-50%,-50%);
-border-left: 50px solid #AFA;
-border-right: 50px solid #CCC;
-border-top: 50px solid #FF7300;
-border-bottom: 50px solid #0BF;
-}
-.box {
-position: absolute;
-height: 50px;
-width: 52px;
-z-index: 1000;
-}
-.a {background: #840; top: -50px; left: -51px;}
-.b {background: #b40; top: -50px; right: -51px;}
-.c {background: #077; bottom: -50px; right: -51px;}
-.d {background: #0A9; bottom: -50px; left: -51px;}
-.book-title {
-position: absolute;
-width: 100%;
-font-size: 57px;
-top: 45%;
-text-align: center;
-}
-.book-subtitle {
-position: absolute;
-width: 100%;
-font-size: 24px;
-top: 55%;
-text-align: center;
-}
-.book-author {
-display: block;
-position: absolute;
-width: 100%;
-top: 90%;
-text-transform: uppercase;
-color: #777;
-font-size: 22px;
-font-family: sans-serif;
-letter-spacing: 2px;
-text-align: center;
-}
-</style>
-<div class="book">
-<div class="cover-design">
-<div class="diamond-frame">
-<div class="box a"></div>
-<div class="box b"></div>
-<div class="box c"></div>
-<div class="box d"></div>
-</div>
-<div class="book-Title"> HTML<span>&</span>CSS </div>
-<p class="book-subtitle">design and build websites</p>
-</div>
-<div class="book-author">Jon Duckett</div>
-</div>
-```
-## OUTPUT:
 
-![Screenshot 2024-05-10 003139](https://github.com/23014287rithik/cover/assets/150985832/6a58fff6-ca0c-4b94-9ff9-c13a59d5e8f7)
+
+## OUTPUT:
+![Screenshot 2024-05-14 111557](https://github.com/23014287rithik/cover/assets/151951350/31cbcf32-8a33-46d6-96ee-de862f5e2561)
+
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
